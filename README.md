@@ -15,7 +15,7 @@ embeddings), an LSTM and a bidirectional LSTM. Word vectors are the **static inp
 use of context has to come from the model on top.
 
 I built this with three teammates for a Machine Learning course at the University of Buenos Aires (see
-[Credits](#credits) for who did what).
+[Credits](#credits)).
 
 ## Results
 
@@ -192,13 +192,9 @@ Trained weights are not distributed.
 
 ## Credits
 
-This is our group work. These are the main contributions according to the commit history:
+This is group work. Our team:
 
-| Who | Contributions |
-|---|---|
-| Kenneth ([kennobith](https://github.com/kennobith)) | Instance and embedding pipeline, first Random Forest baseline, press briefing scraper, Wikinews source, LSTM, hyperparameter search, document-level split, final training runs, evaluation and inference |
-| Me ([TadeoKaufmann](https://github.com/TadeoKaufmann)) | My part: the subtitle download and cleaning pipeline, the repository structure, the synthetic dataset, the first version of the four-class instance builder and the first bidirectional LSTM implementation |
-| Mauricio Enrich ([MauricioEnrich](https://github.com/MauricioEnrich)) | Random Forest tuning and decision thresholds ([notebook](notebooks/exploration/random_forest_pipeline_completo.ipynb), [report](docs/history_random_forest.es.md)) |
-| Santi Maciel ([SantiMaciel](https://github.com/SantiMaciel)) | Handcrafted features for the Random Forest without embeddings, later moved to [src/atributos_rf.py](src/atributos_rf.py) |
-
-I added the demo, the tests, the bootstrap intervals, the extra figures and this English documentation afterwards.
+- Kenneth ([kennobith](https://github.com/kennobith))
+- Mauricio Enrich ([MauricioEnrich](https://github.com/MauricioEnrich))
+- Santi Maciel ([SantiMaciel](https://github.com/SantiMaciel))
+- Me ([TadeoKaufmann](https://github.com/TadeoKaufmann))
