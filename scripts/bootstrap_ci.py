@@ -80,7 +80,7 @@ def main():
         rows.append({"comparison": f"bilstm - {other}", "mean_macro_f1": point["bilstm"] - point[other],
                      "ci_low": lo, "ci_high": hi})
     out = pd.DataFrame(rows).round(4)
-    out.to_csv(ROOT / "results" / "final" / "bootstrap_ci.csv", index=False)
+    out.to_csv(ROOT / "results" / "final" / "bootstrap_ci.csv", index=False, lineterminator="\n")
     print(f"{group_ids.max() + 1} test groups, {len(idx_test):,} words, {a.n_boot} resamples")
     print(out.to_string(index=False))
 

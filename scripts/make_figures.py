@@ -103,7 +103,7 @@ def majority_baseline() -> pd.DataFrame:
         rows.append({"task": TASKS[task], "classes": len(part), "majority_share": round(share, 4),
                      "macro_f1": round(2 * share / (1 + share) / len(part), 4)})
     out = pd.DataFrame(rows)
-    out.to_csv(RESULTS / "majority_baseline.csv", index=False)
+    out.to_csv(RESULTS / "majority_baseline.csv", index=False, lineterminator="\n")
     return out
 
 
