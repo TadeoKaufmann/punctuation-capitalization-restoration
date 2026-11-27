@@ -1,0 +1,21 @@
+{
+ "7bdb6554": {
+  "configs": {
+   "punt_inicial": {
+    "class_weight": null,
+    "max_depth": 30,
+    "min_samples_leaf": 3
+   },
+   "punt_final": {
+    "class_weight": "balanced",
+    "max_depth": 30,
+    "min_samples_leaf": 1
+   },
+   "capitalizacion": {
+    "class_weight": "balanced",
+    "max_depth": 12,
+    "min_samples_leaf": 1
+   }
+  }
+ }
+}

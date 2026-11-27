@@ -1,0 +1,4 @@
+dataset,seed,mejor_epoca,n_epocas,score_val,usa_umbral,test_punt_inicial,test_punt_final,test_capitalizacion,test_umbral_punt_inicial,test_umbral_punt_final,test_umbral_capitalizacion,score_test,score_test_umbral,H,L,dropout,lr,weight_decay,potencia,a_ini,a_fin,a_cap
+7bdb6554,0,12,20,0.6686,True,0.7169,0.5015,0.7538,0.7445,0.5076,0.7665,0.6574,0.6729,128,2,0.2,0.001,0.0,0.5,1.0,1.0,1.0
+7bdb6554,1,15,20,0.6606,True,0.6952,0.4953,0.7531,0.7378,0.507,0.7607,0.6479,0.6685,128,2,0.2,0.001,0.0,0.5,1.0,1.0,1.0
+7bdb6554,2,13,20,0.6615,True,0.7026,0.498,0.7637,0.7372,0.5024,0.7653,0.6548,0.6683,128,2,0.2,0.001,0.0,0.5,1.0,1.0,1.0

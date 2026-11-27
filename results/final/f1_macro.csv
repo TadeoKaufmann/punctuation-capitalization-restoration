@@ -1,0 +1,5 @@
+,RF sin embeddings,RF con embeddings,LSTM,BiLSTM
+Puntuación inicial,0.7689,0.6773,0.7445,0.819
+Puntuación final,0.5665,0.3982,0.5076,0.6809
+Capitalización,0.5722,0.707,0.7665,0.7879
+Promedio,0.6358,0.5942,0.6729,0.7626

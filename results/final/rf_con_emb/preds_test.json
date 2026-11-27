@@ -1,0 +1,51 @@
+{
+ "modelo": "rf_con_emb",
+ "dataset": "7bdb6554",
+ "n_palabras": 123976,
+ "split": "0b10b250",
+ "semilla_por_tarea": {
+  "punt_inicial": 0,
+  "punt_final": 0,
+  "capitalizacion": 0
+ },
+ "usa_umbral": {
+  "punt_inicial": true,
+  "punt_final": true,
+  "capitalizacion": true
+ },
+ "factores": {
+  "punt_inicial": [
+   1.0,
+   3.320116922736548
+  ],
+  "punt_final": [
+   1.0,
+   0.5488116360940266,
+   0.4493289641172217,
+   0.2465969639416065
+  ],
+  "capitalizacion": [
+   1.0,
+   0.818730753077982,
+   0.4493289641172217,
+   0.36787944117144233
+  ]
+ },
+ "configs": {
+  "punt_inicial": {
+   "class_weight": null,
+   "max_depth": 30,
+   "min_samples_leaf": 3
+  },
+  "punt_final": {
+   "class_weight": "balanced",
+   "max_depth": 30,
+   "min_samples_leaf": 1
+  },
+  "capitalizacion": {
+   "class_weight": "balanced",
+   "max_depth": 12,
+   "min_samples_leaf": 1
+  }
+ }
+}

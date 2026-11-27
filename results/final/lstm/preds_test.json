@@ -1,0 +1,8 @@
+{
+ "modelo": "lstm",
+ "dataset": "7bdb6554",
+ "n_palabras": 123976,
+ "seed": 0,
+ "usa_umbral": true,
+ "split": "0b10b250"
+}

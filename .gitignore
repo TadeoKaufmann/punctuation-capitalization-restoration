@@ -1,0 +1,18 @@
+__pycache__/
+.pytest_cache/
+.venv/
+.ipynb_checkpoints/
+.env
+
+# generated outputs, embeddings and model weights
+salidas/
+*.npy
+*.pt
+*.joblib
+
+# corpora stay local (copyrighted or large); only code and notes are versioned here
+datasets/**
+!datasets/
+!datasets/**/
+!datasets/**/*.py
+!datasets/README.md

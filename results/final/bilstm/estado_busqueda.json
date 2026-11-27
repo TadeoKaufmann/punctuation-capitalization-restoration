@@ -1,0 +1,26 @@
+{
+ "7bdb6554": {
+  "cfg": {
+   "H": 256,
+   "L": 2,
+   "dropout": 0.2,
+   "lr": 0.003,
+   "weight_decay": 0.0,
+   "potencia": 0.5,
+   "a_ini": 1.0,
+   "a_fin": 1.0,
+   "a_cap": 1.0,
+   "seed": 0,
+   "arq": "bilstm"
+  },
+  "etapas_hechas": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "final"
+  ],
+  "usar_umbral": true,
+  "ganancia_umbral": 0.0074
+ }
+}

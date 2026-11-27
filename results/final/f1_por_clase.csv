@@ -1,0 +1,41 @@
+modelo,tarea,clase,palabras,precision,recall,f1
+RF sin embeddings,Puntuación inicial,nada,121818,0.9914,0.9934,0.9924
+RF sin embeddings,Puntuación inicial,¿,2158,0.5802,0.5144,0.5453
+RF sin embeddings,Puntuación final,nada,103833,0.929,0.9304,0.9297
+RF sin embeddings,Puntuación final,",",9766,0.3197,0.3504,0.3344
+RF sin embeddings,Puntuación final,.,8214,0.6443,0.6467,0.6455
+RF sin embeddings,Puntuación final,?,2163,0.5524,0.2631,0.3564
+RF sin embeddings,Capitalización,0 minúscula,107368,0.9305,0.9529,0.9416
+RF sin embeddings,Capitalización,1 Inicial,15852,0.6477,0.5363,0.5868
+RF sin embeddings,Capitalización,2 mixta,190,0.6543,0.2789,0.3911
+RF sin embeddings,Capitalización,3 MAYÚS,566,0.3136,0.4488,0.3692
+RF con embeddings,Puntuación inicial,nada,121818,0.9885,0.99,0.9893
+RF con embeddings,Puntuación inicial,¿,2158,0.3829,0.3494,0.3654
+RF con embeddings,Puntuación final,nada,103833,0.9133,0.8335,0.8716
+RF con embeddings,Puntuación final,",",9766,0.2519,0.3985,0.3087
+RF con embeddings,Puntuación final,.,8214,0.2275,0.2923,0.2558
+RF con embeddings,Puntuación final,?,2163,0.1311,0.1946,0.1567
+RF con embeddings,Capitalización,0 minúscula,107368,0.934,0.8524,0.8913
+RF con embeddings,Capitalización,1 Inicial,15852,0.377,0.6037,0.4642
+RF con embeddings,Capitalización,2 mixta,190,0.8921,0.6526,0.7538
+RF con embeddings,Capitalización,3 MAYÚS,566,0.8004,0.6519,0.7186
+LSTM,Puntuación inicial,nada,121818,0.9904,0.9931,0.9918
+LSTM,Puntuación inicial,¿,2158,0.5421,0.4592,0.4972
+LSTM,Puntuación final,nada,103833,0.9219,0.8899,0.9056
+LSTM,Puntuación final,",",9766,0.3499,0.3628,0.3562
+LSTM,Puntuación final,.,8214,0.3357,0.4445,0.3825
+LSTM,Puntuación final,?,2163,0.3455,0.4378,0.3862
+LSTM,Capitalización,0 minúscula,107368,0.9682,0.9497,0.9589
+LSTM,Capitalización,1 Inicial,15852,0.696,0.7884,0.7393
+LSTM,Capitalización,2 mixta,190,0.6089,0.5737,0.5908
+LSTM,Capitalización,3 MAYÚS,566,0.8155,0.742,0.7771
+BiLSTM,Puntuación inicial,nada,121818,0.9935,0.994,0.9938
+BiLSTM,Puntuación inicial,¿,2158,0.6535,0.6353,0.6443
+BiLSTM,Puntuación final,nada,103833,0.9604,0.946,0.9532
+BiLSTM,Puntuación final,",",9766,0.4824,0.5512,0.5145
+BiLSTM,Puntuación final,.,8214,0.6562,0.7066,0.6805
+BiLSTM,Puntuación final,?,2163,0.6547,0.5136,0.5756
+BiLSTM,Capitalización,0 minúscula,107368,0.9677,0.966,0.9668
+BiLSTM,Capitalización,1 Inicial,15852,0.7696,0.7822,0.7758
+BiLSTM,Capitalización,2 mixta,190,0.6263,0.6263,0.6263
+BiLSTM,Capitalización,3 MAYÚS,566,0.8415,0.7314,0.7826

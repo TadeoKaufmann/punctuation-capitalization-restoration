@@ -1,0 +1,4 @@
+task,classes,majority_share,macro_f1
+Opening mark (¿),2,0.9826,0.4956
+"Closing mark (, . ?)",4,0.8375,0.2279
+Capitalization,4,0.866,0.2321

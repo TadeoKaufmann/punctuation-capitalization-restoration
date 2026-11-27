@@ -1,0 +1,26 @@
+Palabras por conjunto: train 433,518 (69.6 %) | val 65,187 (10.5 %) | test 123,976 (19.9 %)
+Grupos (documentos o bloques): train 4,337 | val 720 | test 1,264
+
+             clase            train             val             test
+punt_inicial: nada 425,781 (98.2 %) 64,061 (98.3 %) 121,818 (98.3 %)
+   punt_inicial: ¿    7,737 (1.8 %)   1,126 (1.7 %)    2,158 (1.7 %)
+
+           clase            train             val             test
+punt_final: nada 362,022 (83.5 %) 54,943 (84.3 %) 103,833 (83.8 %)
+   punt_final: ,   34,261 (7.9 %)   4,972 (7.6 %)    9,766 (7.9 %)
+   punt_final: .   29,310 (6.8 %)   4,146 (6.4 %)    8,214 (6.6 %)
+   punt_final: ?    7,925 (1.8 %)   1,126 (1.7 %)    2,163 (1.7 %)
+
+                      clase            train             val             test
+capitalizacion: 0 minúscula 376,401 (86.8 %) 56,731 (87.0 %) 107,368 (86.6 %)
+  capitalizacion: 1 Inicial  54,509 (12.6 %)  7,967 (12.2 %)  15,852 (12.8 %)
+    capitalizacion: 2 mixta      576 (0.1 %)     106 (0.2 %)      190 (0.2 %)
+    capitalizacion: 3 MAYÚS    2,032 (0.5 %)     383 (0.6 %)      566 (0.5 %)
+
+Palabras por fuente:
+               train    val   test
+conferencias  170831  24470  47985
+subtitulos    132247  16725  38296
+wikinoticias   58855  12309  16676
+paenza         51597   8469  15160
+sintetico      19988   3214   5859

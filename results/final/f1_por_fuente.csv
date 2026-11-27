@@ -1,0 +1,16 @@
+,,RF sin embeddings,RF con embeddings,LSTM,BiLSTM
+"conferencias (47,985 pal.)",Puntuación inicial,0.7078,0.6349,0.6727,0.7512
+"conferencias (47,985 pal.)",Puntuación final,0.5426,0.3437,0.4226,0.6445
+"conferencias (47,985 pal.)",Capitalización,0.596,0.6941,0.7358,0.7456
+"paenza (15,160 pal.)",Puntuación inicial,0.7561,0.6992,0.7345,0.8097
+"paenza (15,160 pal.)",Puntuación final,0.4936,0.3621,0.4266,0.6065
+"paenza (15,160 pal.)",Capitalización,0.413,0.499,0.5032,0.5203
+"sintetico (5,859 pal.)",Puntuación inicial,0.7718,0.7247,0.8134,0.879
+"sintetico (5,859 pal.)",Puntuación final,0.5322,0.4029,0.5071,0.7225
+"sintetico (5,859 pal.)",Capitalización,0.5081,0.7994,0.8732,0.8651
+"subtitulos (38,296 pal.)",Puntuación inicial,0.7765,0.6724,0.7482,0.8202
+"subtitulos (38,296 pal.)",Puntuación final,0.5871,0.4308,0.5487,0.7009
+"subtitulos (38,296 pal.)",Capitalización,0.5358,0.4688,0.6659,0.6359
+"wikinoticias (16,676 pal.)",Puntuación inicial,0.4999,0.4999,0.4997,0.5
+"wikinoticias (16,676 pal.)",Puntuación final,0.4567,0.3098,0.359,0.5374
+"wikinoticias (16,676 pal.)",Capitalización,0.5775,0.7383,0.7753,0.8158
